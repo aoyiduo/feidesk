@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="doc/feidesk.png" width="64" alt="FeiDesk - Another Remote Desktop Assistant">
+  <br>Another Remote Desktop Assistant
+  <br>[<a href="README.md">English</a>] | [<a href="README-zh.md">中文</a>]   
+</p>
+
 # Overview
 A remote desktop manager base on Qt 5.
 
