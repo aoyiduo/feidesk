@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QKxFileTransferWindow</class>
+ <widget class="QWidget" name="QKxFileTransferWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>639</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="rootLayout" stretch="5,2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Local Directory</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="btnHome">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="feidesk.qrc">
+               <normaloff>:/resource/skin/home.png</normaloff>:/resource/skin/home.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnReturn">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="feidesk.qrc">
+               <normaloff>:/resource/skin/back.png</normaloff>:/resource/skin/back.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnEnter">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="feidesk.qrc">
+               <normaloff>:/resource/skin/forward.png</normaloff>:/resource/skin/forward.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnBrowser">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="feidesk.qrc">
+               <normaloff>:/resource/skin/folder.png</normaloff>:/resource/skin/folder.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="localEdit">
+             <property name="readOnly">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTreeView" name="local"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Remote Directory</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="btnHome2">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="feidesk.qrc">
+               <normaloff>:/resource/skin/home.png</normaloff>:/resource/skin/home.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnReturn2">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="feidesk.qrc">
+               <normaloff>:/resource/skin/back.png</normaloff>:/resource/skin/back.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnEnter2">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="feidesk.qrc">
+               <normaloff>:/resource/skin/forward.png</normaloff>:/resource/skin/forward.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btnCopy2">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="feidesk.qrc">
+               <normaloff>:/resource/skin/copy.png</normaloff>:/resource/skin/copy.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="remoteEdit"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QTreeView" name="remote"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>File transfer list</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTreeView" name="transfer"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="feidesk.qrc"/>
+ </resources>
+ <connections/>
+</ui>
