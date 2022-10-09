@@ -31,7 +31,7 @@ Cross platform P2P remote desktop management tool, out of the box, no configurat
 The client code is open source except for the communication module with the server. Some modules are from [WoVNC](http://wovnc.com) And [WoTerm](http://woterm.com) Open source projects.
 
 
-## More Information: 
+## More information: 
 <a href="http://www.feidesk.com">http://www.feidesk.com</a>
 
 ## Binary download:
